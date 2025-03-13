@@ -2,7 +2,7 @@
 Noto Nerd Font
 #### Debian strata:
 ```
-sway swaybg sway-notification-center kitty thunar thunar-archive-plugin gvfs xwayland
+sway swaybg sway-notification-center kitty thunar thunar-archive-plugin gvfs xwayland rofi
 ```
 > Audio
 >```
@@ -10,7 +10,7 @@ sway swaybg sway-notification-center kitty thunar thunar-archive-plugin gvfs xwa
 >```
 #### Arch strata:
 ```
-rofi-wayland git base-devel stow mousepad
+git base-devel stow mousepad
 ```
 >AUR Packages
 >```
