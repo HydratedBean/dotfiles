@@ -2,7 +2,7 @@
 Noto Nerd Font
 #### Debian strata:
 ```
-sway swaybg sway-notification-center kitty thunar thunar-archive-plugin gvfs xwayland rofi grim slurp grimshot stow
+sway swaybg sway-notification-center kitty thunar thunar-archive-plugin gvfs xwayland rofi grim slurp grimshot stow imv
 ```
 > Audio
 >```
