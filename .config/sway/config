@@ -83,6 +83,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 bindsym $mod+F1 exec thunar
 bindsym $mod+F2 exec librewolf
+bindsym Print exec grimshot save area
 bar {
     position top
     status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
