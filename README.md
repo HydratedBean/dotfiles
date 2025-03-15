@@ -1,5 +1,7 @@
 ## Dependencies:
 Noto Nerd Font
+Colloid-Dark-Catppuccin GTK theme
+candy-icons-master GTK icons
 #### Debian strata:
 ```
 sway swaybg sway-notification-center kitty thunar thunar-archive-plugin gvfs xwayland rofi grim slurp grimshot stow imv

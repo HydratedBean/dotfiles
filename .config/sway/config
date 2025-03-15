@@ -6,7 +6,7 @@ client.unfocused         $overlay0 $base $text  $rosewater $overlay0
 client.urgent            $peach    $base $peach $overlay0  $peach
 client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
-font pango: NotoMonoNerdFont Bold 12
+font pango: NotoMono Nerd Font Bold 12
 set $mod Mod4
 set $left h
 set $down j
@@ -106,3 +106,9 @@ bar {
 include /etc/sway/config.d/*
 gaps inner 10
 default_border pixel 2
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Colloid-Dark-Catppuccin'
+    gsettings set $gnome-schema icon-theme 'candy-icons-master'
+    gsettings set $gnome-schema font-name 'NotoMono Nerd Font Mono'
+}
