@@ -3,16 +3,12 @@
 [Colloid-Dark-Catppuccin GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)\
 [candy-icons-master GTK icons](https://github.com/EliverLara/candy-icons)\
 [Kanata](https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md)
-#### Debian strata:
+#### Packages:
 ```
-sway swaybg sway-notification-center xdg-desktop-portal-wlr kitty thunar thunar-archive-plugin gvfs xwayland rofi grim slurp grimshot stow imv pulseaudio-utils pulseaudio pulseaudio-module-bluetooth libspa-0.2-bluetooth blueman pavucontrol extrepo
+git sway swaybg sway-notification-center xdg-desktop-portal-wlr kitty thunar thunar-archive-plugin mousepad gvfs-backends xwayland rofi grim slurp grimshot stow imv pulseaudio-utils pulseaudio pulseaudio-module-bluetooth libspa-0.2-bluetooth blueman pavucontrol extrepo
 ```
 Enable `librewolf` repository in extrepo and install the package `librewolf` from there
 
-#### Arch strata:
-```
-git base-devel mousepad
-```
 ## Installation
 After installing all of those packages, clone this repository and cd into it:
 ```
