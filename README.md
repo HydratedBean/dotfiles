@@ -9,10 +9,8 @@ sudo sh ./install.sh
 rm -rm ~/.bashrc
 stow .
 ```
+Install [Kanata](https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md)\
 You might need to set the GTK theme in lxappearance
-
-### Optional stuff:
-[Kanata](https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md)
 
 ### Basic Usage
 If you installed kanata he `capslock` key has its functionality replaced to be a duplicate `Super` key\
