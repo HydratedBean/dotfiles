@@ -107,6 +107,7 @@ bar {
 include /etc/sway/config.d/*
 gaps inner 10
 default_border pixel 2
+exec_always "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1"
 set $gnome-schema org.gnome.desktop.interface
 exec_always {
     gsettings set $gnome-schema gtk-theme 'Colloid-Dark-Catppuccin'
