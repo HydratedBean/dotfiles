@@ -13,7 +13,7 @@ Install [Kanata](https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md)\
 You might need to set the GTK theme in lxappearance
 
 ### Basic Usage
-If you installed kanata he `capslock` key has its functionality replaced to be a duplicate `Super` key\
+The `capslock` key has its functionality replaced to be a duplicate `Super` key\
 File Explorer: `Super+F1`\
 Librewolf Browser: `Super+F2`\
 Terminal: `Super+Enter`\
