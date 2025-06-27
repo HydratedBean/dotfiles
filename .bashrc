@@ -112,4 +112,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:"/usr/local/sbin:/usr/local/bin:/usr/sbin/:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH=$PATH:"/usr/local/sbin:/usr/local/bin:/usr/sbin/:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/home/bean/go/bin"

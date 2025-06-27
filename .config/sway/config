@@ -113,4 +113,5 @@ exec_always {
     gsettings set $gnome-schema gtk-theme 'Colloid-Dark-Catppuccin'
     gsettings set $gnome-schema icon-theme 'candy-icons-master'
     gsettings set $gnome-schema font-name 'NotoMono Nerd Font Mono'
+    wmname LG3D
 }
