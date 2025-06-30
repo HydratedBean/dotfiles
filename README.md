@@ -11,6 +11,14 @@ stow .
 ```
 Install [Kanata](https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md)\
 You might need to set the GTK theme in lxappearance
+\
+Getting nmtui to work:
+```
+sudo apt install network-manager
+sudo nmcli device set wlp2s0 managed yes
+sudo rm -rf /etc/network/interfaces
+reboot
+```
 
 ### Basic Usage
 The `capslock` key has its functionality replaced to be a duplicate `Super` key\
