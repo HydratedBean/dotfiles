@@ -1,4 +1,1 @@
-sudo apt install extrepo
-sudo extrepo enable librewolf
-sudo apt update
-sudo apt install sway sway-notification-center swaybg xdg-desktop-portal-wlr kitty btop thunar thunar-archive-plugin mousepad gvfs-backends xwayland rofi grim slurp grimshot stow imv pulseaudio-utils pulseaudio pulseaudio-module-bluetooth libspa-0.2-bluetooth blueman pavucontrol libglib2.0-bin librewolf lxappearance
+sudo apt install sway swayidle swaylock swaybg dunst kitty brightnessctl stow imv rofi grim slurp grimshot mpv pipewire wireplumber pipewire-audio pipewire-pulse pipewire-jack pavuvontrol blueman libglib2.0-bin thunar thunar-archive-plugin unrar-free fastfetch btop xdg-desktop-portal-wlr xdg-desktop-portal-gnome xdg-desktop-portal-gtk xdg-desktop-portal-kde foot-
