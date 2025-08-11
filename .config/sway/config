@@ -83,7 +83,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 bindsym $mod+F1 exec thunar
 bindsym $mod+F2 exec sh -c '"/home/user/mullvad-browser/Browser/start-mullvad-browser" || ([ !  -x "/home/user/mullvad-browser/Browser/start-mullvad-browser" ] && "$(dirname "$*")"/Browser/start-mullvad-browser)' dummy %k
-bindsym $mod+Shift+Delete exec poweroff
 bindsym Print exec grimshot save area
 bar {
     position top
