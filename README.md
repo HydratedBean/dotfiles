@@ -1,6 +1,6 @@
 # HydratedBean's swaywm dotfiles
-![demo1](demo1.png)
-![demo2](demo2.png)
+![demo1](images/demo1.png)
+![demo2](images/demo2.png)
 ## Installation
 ```
 git clone https://github/com/HydratedBean/dotfiles.git
@@ -15,7 +15,8 @@ You might need to set the GTK theme in lxappearance
 Getting nmtui to work:
 ```
 sudo apt install network-manager
-sudo nmcli device set wlp2s0 managed yes
+nmcli dev status
+sudo nmcli device set (WIFI DEVICE HERE) managed yes
 sudo rm -rf /etc/network/interfaces
 reboot
 ```
@@ -28,4 +29,3 @@ Terminal: `Super+Enter`\
 Toggle Fullscreen: `Super+F`\
 Switch Workspaces: `Super+Numbers`\
 Move windows: `Super+Shift+Arrow Keys or Vim keys`\
-Poweroff: `Super+Shift+Delete`
